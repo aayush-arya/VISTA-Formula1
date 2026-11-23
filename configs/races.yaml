@@ -1,0 +1,9 @@
+# Candidate races. Verify each against the data (safety cars, weather, battles)
+# before freezing the list, then mark one race as the held-out final test race.
+seed: 42
+session: R
+races:
+  - {year: 2023, event: "Italian Grand Prix"}
+  - {year: 2023, event: "Monaco Grand Prix"}
+  - {year: 2023, event: "British Grand Prix"}
+holdout_race_id: null   # set after exploration, e.g. 2023_British_Grand_Prix

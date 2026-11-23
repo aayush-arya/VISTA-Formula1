@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/vista/__init__.py
+src/vista.egg-info/PKG-INFO
+src/vista.egg-info/SOURCES.txt
+src/vista.egg-info/dependency_links.txt
+src/vista.egg-info/top_level.txt
+src/vista/app/__init__.py
+src/vista/copilot/__init__.py
+src/vista/data/__init__.py
+src/vista/data/fastf1_loader.py
+src/vista/evaluation/__init__.py
+src/vista/models/__init__.py
+src/vista/models/tyre_baseline.py
+src/vista/perception/__init__.py
+src/vista/sync/__init__.py
+tests/test_tyre_baseline.py

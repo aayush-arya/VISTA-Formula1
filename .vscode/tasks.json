@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run tests",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe -m pytest -q",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Lint",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe -m ruff check .",
+      "problemMatcher": []
+    },
+    {
+      "label": "Fetch laps",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe scripts/fetch_laps.py --config configs/races.yaml",
+      "problemMatcher": []
+    },
+    {
+      "label": "Tyre baseline",
+      "type": "shell",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe scripts/run_tyre_baseline.py",
+      "problemMatcher": []
+    }
+  ]
+}
